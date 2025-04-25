@@ -1,0 +1,30 @@
+/* селектор { */
+    /* свойство: значение; */
+    /* свойство: значение; */
+    /* свойство: значение; */
+    /* свойство: значение; */
+
+h1, h2, h3 {
+    text-align: center;
+
+}
+
+.First {
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: ;
+}
+
+#second {
+color: rgb(121, 155, 0);
+}
+
+.marked {
+
+color: chartreuse;
+
+
+}
