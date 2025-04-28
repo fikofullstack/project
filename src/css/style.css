@@ -15,7 +15,7 @@ h1, h2, h3 {
     font-weight: 400;
     font-style: italic;
     text-decoration: line-through;
-    text-transform: ;
+    text-transform: 
 }
 
 #second {
@@ -27,4 +27,16 @@ color: rgb(121, 155, 0);
 color: chartreuse;
 
 
+}
+.salam {
+    margin-left: 230px;
+    flex: auto;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background: darkgrey;
+    padding: 20px 40px; 
+margin: 40px 20px;
 }
