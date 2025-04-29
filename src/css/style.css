@@ -30,7 +30,6 @@ color: chartreuse;
 }
 .salam {
     margin-left: 230px;
-    flex: auto;
 }
 
 .box{
@@ -38,5 +37,7 @@ color: chartreuse;
     height: 300px;
     background: darkgrey;
     padding: 20px 40px; 
-margin: 40px 20px;
+    margin: 40px 20px;
 }
+
+.box
