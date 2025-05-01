@@ -1,0 +1,91 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#logo {
+    color: rgb(156, 155, 155);
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation {
+    display: flex;
+  /*  align-items: center;*/
+    gap: 15px;
+
+}
+
+.navigation a {
+    text-align: center;
+    color: rgb(5, 7, 7);
+    line-height: 60px;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+h1 {
+    width: max-content;
+    padding-inline: 30%;
+    color: rgb(100, 90, 90);
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    width: max-content;
+    font-weight: lighter;
+    padding-inline: 30%;
+}
+
+main {
+    display:flex;
+    min-height:140px; /*calc(100vh-100px);/*Bu o deməkdir ki, main ekranın tam 
+    hündürlüyündən footer-in boyunu çıxıb öz hündürlüyünü hesablayacaq.*/
+    width:100%;
+    background-color: #a6d9dc;
+    
+}
+.content{
+    margin-top: 50px;
+
+
+}
+
+.content p {
+    flex:1;
+   width: 500px;
+   padding-inline: 30%;
+}
+
+.content img{
+    display:flex;
+    justify-content: end;
+    align-items: end;
+    height: 500px;
+    width: 500px;
+    padding-left: 700px;
+   
+}
+footer {
+   
+    width:100%;
+    height:100px;
+    color: white;
+    background-color: rgb(68, 62, 62);
+    text-align: center;
+}

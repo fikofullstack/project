@@ -1,0 +1,48 @@
+/* селектор { */
+    /* свойство: значение; */
+    /* свойство: значение; */
+    /* свойство: значение; */
+    /* свойство: значение; */
+
+h1, h2, h3 {
+    text-align: center;
+
+}
+
+.First {
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: line-through;
+ 
+}
+
+#second {
+color: rgb(121, 155, 0);
+}
+
+.marked {
+
+color: chartreuse;
+
+
+}
+.salam {
+    margin-left: 230px;
+}
+
+.box2 {
+    width: 250px;
+    height: 250px;
+    background: rgb(231, 0, 0);
+    padding: 20px 40px; 
+    margin: 40px 20px;
+    border-color: black;
+    border-style: outset;
+}
+
+* {
+    box-sizing: border-box;
+
+}
